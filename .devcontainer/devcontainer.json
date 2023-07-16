@@ -24,7 +24,9 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 
-	"dev.containers.defaultExtensions": [
-		"LeetCode.vscode-leetcode"
-	]
+	"customizations": {
+		"vscode": {
+		  "extensions": ["LeetCode.vscode-leetcode", "charliermarsh.ruff", "ms-python.black-formatter"]
+		}
+	  }
 }
